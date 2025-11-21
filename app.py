@@ -135,7 +135,7 @@ if st.button("🔍 Predict Churn"):
 
     if pred == "Not Churn":
         st.success("✅ Customer is likely to stay.")
-        st.balloons()
+        
     else:
         st.error("⚠️ Customer is likely to churn.")
 
